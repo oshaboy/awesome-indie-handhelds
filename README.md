@@ -4,7 +4,6 @@ This list details "Hobby" indie handheld game systems. Those systems are based o
 | Name | Processor | RAM | Resolution | Color Depth | Languages | Flash Size | Storage | Price | Source Model | URL |
 | ---- | --------- | --- | ---------- | ---------- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
 | Arduboy | ATMega 32u4 (AVR 16 MHz)  | 2.5 KiB | 128x64 | 1-bit | C/C++ (Arduino) | 32 KiB | 128 MiB Flash (FX Model Only) | 54 USD | FOSS | https://arduboy.com |
-| Brainpad Pulse (BrainGamer) |  ? | ?  | ?  |  ? | VPL(MakeCode), C#, MicroPython  |  ? | ?  | ?  |  ? | https://www.brainpad.com/brainpad-family/pulse/  |
 | Brainpad Arcade |  STM32F401 (84 MHz Cortex M4) | 96 KiB    | 160x128  | ?  | VPL (MakeCode Arcade)  |  512KiB  |  N/A |  34.95 USD | Proprietary  |  https://www.brainpad.com/brainpad-family/arcade/ |
 | Gamebuino/MAKERbuino | ATMega 328 (AVR 16MHz) | 2 KiB |34x48  | 1-bit | C/C++ (Arduino) | 32KiB |  Micro SD | ~70 USD | FOSS | http://legacy.gamebuino.com/wiki/index.php?title=Main_Page |
 | Gamebuino META | ATSAMD21 (48 MHz Cortex M0+) | 32 KiB | 160x128 | 16-bit | C/C++ (Arduino) | 256KiB | Micro SD | 70 EUR | Proprietary | https://gamebuino.com/ |
