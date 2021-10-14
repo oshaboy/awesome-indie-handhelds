@@ -2,8 +2,8 @@ This list details "Hobby" indie handheld game systems. Those systems are based o
 
 
 Name | Processor | RAM | Resolution | Color depth | Language | Flash Size | Price     | Source Model | URL                                      
------------------|-------------------|-----|-------|-------------|-----------------------------------------------------|------------|-----------------------|-----|--------------|---------------------------------------------
-Arduboy         | ATMega 32u4     | 2.5 KiB  | 128x64     | 1-bit       | C++ (Arduino) | 32KiB      | 54 USD | FOSS | https://arduboy.com/         
+----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
+Arduboy | ATMega 32u4 | 2.5 KiB | 128x64 | 1-bit | C++ (Arduino) | 32KiB | 54 USD | FOSS | https://arduboy.com/         
 Gamebuino META | ATSAMD21 | 32 KiB | 160x128    | 16-bit      | C++ (Arduino) | 256KiB      | 70 EUR | Proprietary | https://gamebuino.com/    
 MeowBit  | STM32F401    |   96 KiB    | 160x128    | 16-bit      | CircuitPython, VPL (MakeCode Arcade)   | 512KiB      | 39.95  USD    | FOSS  |  https://meowbit.kittenbot.cc      
 Playdate        | 180MHz Cortex M7 | 16 MiB | 400x240    | 1-bit       | Lua, C                                              | 4GB Flash  | 179 USD            |  Proprietary  | https://play.date/         
