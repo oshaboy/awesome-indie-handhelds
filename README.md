@@ -1,19 +1,28 @@
-This list details "Hobby" indie handheld game systems. Those systems are based on microcontrollers and allow hobbyists to program them. Note, this list isn't for linux based emulation handhelds.
+Cheap microcontrollers and bitmap screens have led to a new kind of game console. Which I nickname "Hobby Handhelds" or "Indie Handhelds". Unlike traditional handheld game consoles these systems are meant to run games made by hobbyists and easily programmed by the user. Nobody has yet compiled a list of them so I decided to do that.
 
 ## List
-| Name | Processor | RAM | Resolution | Color Depth | Languages | Flash Size | Storage | Price | Source Model | URL |
+| Name | Processor | RAM | Resolution | Color | Languages | Flash Size | Storage | Price | Schematic Available | URL |
 | ---- | --------- | --- | ---------- | ---------- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
-| Arduboy | ATMega 32u4 (AVR 16 MHz)  | 2.5 KiB | 128x64 | 1-bit | C/C++ (Arduino) | 32 KiB | 128 MiB Flash (FX Model Only) | 54 USD | FOSS | https://arduboy.com |
-| Brainpad Arcade |  STM32F401 (84 MHz Cortex M4) | 96 KiB    | 160x128  | ?  | VPL (MakeCode Arcade)  |  512KiB  |  N/A |  34.95 USD | Proprietary  |  https://www.brainpad.com/brainpad-family/arcade/ |
-| Gamebuino/MAKERbuino | ATMega 328 (AVR 16MHz) | 2 KiB |34x48  | 1-bit | C/C++ (Arduino) | 32KiB |  Micro SD | ~70 USD | FOSS | http://legacy.gamebuino.com/wiki/index.php?title=Main_Page |
-| Gamebuino META | ATSAMD21 (48 MHz Cortex M0+) | 32 KiB | 160x128 | 16-bit | C/C++ (Arduino) | 256KiB | Micro SD | 70 EUR | Proprietary | https://gamebuino.com/ |
-| GameGo   |  STM32F401 (84 MHz Cortex M4) | 96 KiB  | 160x128  |  ? |  VPL (MakeCode Arcade)  |  512 KiB  |  N/A | 41.90 USD  | Proprietary  |  https://www.seeedstudio.com/GameGo-p-4847.html |
-| Kitronik ARCADE | ATSAMD51J19 (120MHz Cortex M4F)  | 192 KiB   |  160 x 128 | ?  |  MicroPython, VPL (MakeCode Arcade) | 512KiB	  | N/A  |  36.00 GBP  | ?  | https://kitronik.co.uk/products/5311-arcade-for-makecode-arcade  |
-| MeowBit  | STM32F401 (84 MHz Cortex M4)   |   96 KiB    | 160x128    | 16-bit      | CircuitPython, VPL (MakeCode Arcade)   | 512KiB    | SD  | 39.95  USD    | FOSS  |  https://meowbit.kittenbot.cc   |
-| Ovobot Xtron Pro   |  STM32F41x (100 MHz Cortex M4) |   256 KiB | ?  | ?  |  VPL (MakeCode Arcade), 6502 Assembly (NES) |  1 MiB | 16 MiB  | 85 USD  | Proprietary  | https://store.ovobot.cc/products/xtron-pro  |
-| Playdate        | 180MHz Cortex M7 | 16 MiB | 400x240    | 1-bit       | Lua, C                                          |  TBD  | 4GB Flash  | 179 USD            |  Proprietary  | https://play.date/   |
-| Pokitto         | 48 MHz Cortex M0+ | 36 KiB | 176x220    | 8-bit       | C++                                                 | 256kiB   | Micro SD   | 49.90 EUR        |    Proprietary  | https://www.pokitto.com/ |
-| PyGamer/PyBadge | ATSAMD51J19 (120MHz Cortex M4F)  |  192 KiB   | 160x128    | 18-bit      | CircuitPython, VPL (MakeCode Arcade), C++ (Arduino) | 512KiB |   Micro SD  | 24.95 USD - 59.95 USD | FOSS         | https://learn.adafruit.com/adafruit-pygamer |
-| Thumby | RP2040  (2x133 MHz Cortex M0+) | 264KiB    |   72x40  | 1-bit    | MicroPython , C/C++ (Arduino) | N/A  | 2 MiB Flash | TBD ($19 for backers) | FOSS | https://www.kickstarter.com/projects/kenburns/thumby-the-tiny-playable-keychain  |
-| TinyArcade/PocketArcade | ATMega 328P (AVR 16MHz) | 2 KiB   |   96x64  | 16-bit    | C/C++ (Arduino) | 32 KiB    | Micro SD | 59.95  USD    | FOSS | https://tinycircuits.com/collections/all/products/tinyarcade  
-| µgame | Atmel SAMD21 (48 MHz Cortex M0+)  | 32 KiB | 128×128 | 16-bit | MicroPython , CircuitPython | 256KiB | 2 MiB Flash | 24.99 USD | FOSS | https://github.com/python-ugame |
+| Arduboy | ATMega 32u4 (AVR 16 MHz)  | 2.5 KiB | 128x64 | 1-bit | C/C++ (Arduino) | 32 KiB | 128 MiB Flash (FX Model Only) | 54 USD | Yes | https://arduboy.com |
+| Brainpad Arcade |  STM32F401 (84 MHz Cortex M4) | 96 KiB    | 160x128  | RGB  | VPL (MakeCode Arcade)  |  512KiB  |  N/A |  34.95 USD | No  |  https://www.brainpad.com/brainpad-family/arcade/ |
+| Dodo   | 65C02  (1 MHz)  | 32KiB | 128x64  | 1-bit   | C (CC65), 65C02 Assembly  | N/A  |  8 KiB FRAM | 199 USD  |  Yes |  http://www.dodolabs.io/ |
+| Gamebuino/MAKERbuino | ATMega 328 (AVR 16MHz) | 2 KiB |34x48  | 1-bit | C/C++ (Arduino) | 32KiB |  Micro SD | ~70 USD | Yes | http://legacy.gamebuino.com/wiki/index.php?title=Main_Page |
+| Gamebuino META | ATSAMD21 (48 MHz Cortex M0+) | 32 KiB | 160x128 | RGB | C/C++ (Arduino) | 256KiB | Micro SD | 70 EUR | No | https://gamebuino.com/ |
+| GameGo   |  STM32F401 (84 MHz Cortex M4) | 96 KiB  | 160x128  |  RGB |  VPL (MakeCode Arcade)  |  512 KiB  |  N/A | 41.90 USD  | No  |  https://www.seeedstudio.com/GameGo-p-4847.html |
+| Kitronik ARCADE | ATSAMD51J19 (120MHz Cortex M4F)  | 192 KiB   |  160 x 128 | RGB  |  MicroPython, VPL (MakeCode Arcade) | 512KiB	  | N/A  |  36.00 GBP  | No  | https://kitronik.co.uk/products/5311-arcade-for-makecode-arcade  |
+| MeowBit  | STM32F401 (84 MHz Cortex M4)   |   96 KiB    | 160x128    | RGB      | CircuitPython, VPL (MakeCode Arcade)   | 512KiB    | SD  | 39.95  USD    | Yes  |  https://meowbit.kittenbot.cc   |
+| Ovobot Xtron Pro   |  STM32F41x (100 MHz Cortex M4) |   256 KiB | ?  | ?  |  VPL (MakeCode Arcade), 6502 Assembly (NES) |  128 KiB | 16 MiB Flash  | 85 USD  | No  | https://store.ovobot.cc/products/xtron-pro  |
+| PewPew M4   |  ATSAMD51G19A |  192 KiB | 160x128  | RGB  |  CircuitPython | 512 KiB  |  N/A |  25 USD | Yes  | https://pewpew.readthedocs.io/en/latest/pewpew-m4/overview.html https://makerfabs.com/circuitpython-pewpew-m4.html  |
+| Playdate | 180MHz Cortex M7 | 16 MiB | 400x240    | 1-bit       | Lua, C                                          |  TBD  | 4GB Flash  | 179 USD            |  Proprietary  | https://play.date/   |
+| Pokitto         | LPC11U6x (48 MHz Cortex M0+) | 36 KiB | 176x220    | 8-bit | C++ | 256kiB   | Micro SD   | 49.90 EUR        |    No  | https://www.pokitto.com/ |
+| PyGamer/PyBadge | ATSAMD51J19 (120MHz Cortex M4F)  |  192 KiB   | 160x128    | RGB      | CircuitPython, VPL (MakeCode Arcade), C++ (Arduino) | 512KiB |   Micro SD  | 24.95 USD - 59.95 USD | Yes         | https://learn.adafruit.com/adafruit-pygamer |
+| Thumby | RP2040  (2x133 MHz Cortex M0+) | 264KiB    |   72x40  | 1-bit    | MicroPython , C/C++ (Arduino) | N/A  | 2 MiB Flash | TBD ($19 for backers) | Yes | https://www.kickstarter.com/projects/kenburns/thumby-the-tiny-playable-keychain  |
+| TinyArcade/PocketArcade | ATMega 328P (AVR 16MHz) | 2 KiB   |   96x64  | RGB    | C/C++ (Arduino) | 32 KiB    | Micro SD | 59.95  USD    | Yes | https://tinycircuits.com/collections/all/products/tinyarcade  
+| µgame | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB | 128×128 | 16-bit | MicroPython , CircuitPython | 256KiB | 2 MiB Flash | 24.99 USD | Yes | https://github.com/python-ugame https://www.tindie.com/products/deshipu/game-10-python-game-console-kit/ |
+
+If I missed a console leave a Pull Request or an Issue. The criteria to be included is.
+
+1. Purchasable in either kit form or as a product (No one off hobby projects and DIY instructions)
+2. Must be programmable by the end user (No LCD Games, Or Clone Consoles and Emulation Boxes that aren't for Homebrew)
+3. Mustn't run Linux or BSD (No Raspberry Pi based handhelds)
+4. Have buttons and a Bitmap Screen (No character LCDs or Touchscreen Only Devices)
