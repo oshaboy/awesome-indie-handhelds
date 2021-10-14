@@ -1,11 +1,12 @@
-This list details "Hobby" indie handheld game systems. Those systems are based on microcontrollers and allow hobbyists to program them. Note, this list isn't for linux based emulation handhelds. 
+This list details "Hobby" indie handheld game systems. Those systems are based on microcontrollers and allow hobbyists to program them. Note, this list isn't for linux based emulation handhelds.
 
 ## List
-| Name | Processor | RAM | Resolution | Color Depth | Languages | Flash Size | Price | Source Model | URL |
-| ---- | --------- | --- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+| Name | Processor | RAM | Resolution | Color Depth | Languages | Flash Size | Storage | Price | Source Model | URL |
+| ---- | --------- | --- | ---------- | ---------- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
 | Arduboy | ATMega 32u4 | 2.5 KiB | 128x64 | 1-bit | C/C++ (Arduino) | 32 KiB | 128 MiB Flash (FX Model Only) | 54 USD | FOSS | https://arduboy.com |
 | Gamebuino/MAKERbuino | ATMega 328 (AVR 16MHz) | 2 KiB |34x48  | 1-bit | C/C++ (Arduino) | 32KiB |  Micro SD | ~70 USD | FOSS | http://legacy.gamebuino.com/wiki/index.php?title=Main_Page |
 | Gamebuino META | ATSAMD21 (48 MHz Cortex M0+) | 32 KiB | 160x128 | 16-bit | C/C++ (Arduino) | 256KiB | Micro SD | 70 EUR | Proprietary | https://gamebuino.com/ |
+| GameGo   |  STM32F401 (84 MHz Cortex M4) | 96 KiB  | 160x128  |  ? |  VPL (MakeCode Arcade)  |  512 KiB  |  N/A | 41.90 USD  | Proprietary  |  https://www.seeedstudio.com/GameGo-p-4847.html |
 | MeowBit  | STM32F401 (84 MHz Cortex M4)   |   96 KiB    | 160x128    | 16-bit      | CircuitPython, VPL (MakeCode Arcade)   | 512KiB    | SD  | 39.95  USD    | FOSS  |  https://meowbit.kittenbot.cc   |
 | Playdate        | 180MHz Cortex M7 | 16 MiB | 400x240    | 1-bit       | Lua, C                                          |  TBD  | 4GB Flash  | 179 USD            |  Proprietary  | https://play.date/   |
 | Pokitto         | 48 MHz Cortex M0+ | 36 KiB | 176x220    | 8-bit       | C++                                                 | 256kiB   | Micro SD   | 49.90 EUR        |    Proprietary  | https://www.pokitto.com/ |
