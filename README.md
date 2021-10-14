@@ -1,7 +1,7 @@
 This list details "Hobby" indie handheld game systems. Those systems are based on microcontrollers and allow hobbyists to program them. Note, this list isn't for linux based emulation handhelds. 
 
 ### List
-Name | Processor | RAM | Resolution | Color depth | Language | Flash Size | Price     | Source Model | URL
+Name | Processor | RAM | Resolution | Color depth | Language | Flash Size | Price     | Source Model | URL                                      
 ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | -----
 Arduboy | ATMega 32u4 | 2.5 KiB | 128x64 | 1-bit | C++ (Arduino) | 32KiB | 54 USD | FOSS | https://arduboy.com/         
 Gamebuino META | ATSAMD21 | 32 KiB | 160x128    | 16-bit      | C++ (Arduino) | 256KiB      | 70 EUR | Proprietary | https://gamebuino.com/    
