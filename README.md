@@ -6,6 +6,7 @@ Cheap microcontrollers and bitmap screens have led to a new kind of game console
 | Arduboy | ATMega 32u4 (AVR 16 MHz)  | 2.5 KiB | 128x64 | 1-bit | C/C++ (Arduino) | 32 KiB | 128 MiB Flash (FX Model Only) | 54 USD | Yes | https://arduboy.com |
 | Brainpad Arcade |  STM32F401 (84 MHz Cortex M4) | 96 KiB    | 160x128  | RGB  | VPL (MakeCode Arcade)  |  512KiB  |  N/A |  34.95 USD | No  |  https://www.brainpad.com/brainpad-family/arcade/ |
 | Dodo   | 65C02  (1 MHz)  | 32KiB | 128x64  | 1-bit   | C (CC65), 65C02 Assembly  | N/A  |  8 KiB FRAM | 199 USD  |  Yes |  http://www.dodolabs.io/ |
+|ESPlay Micro V2   |  ESP32 WROVER (Dual-Core) |  4MiB  | 320x240  | RGB  |  MicroPython, C/C++ (Arduino), Z80 Assembly (Gameboy (Color), Master System, Game Gear, Colecovision), 6502 Assembly (NES) | 4MB   | Micro SD |  32.90 USD   | Yes  |  https://hackaday.io/project/166707-esplay-micro |
 | Gamebuino/MAKERbuino | ATMega 328 (AVR 16MHz) | 2 KiB |34x48  | 1-bit | C/C++ (Arduino) | 32KiB |  Micro SD | ~70 USD | Yes | http://legacy.gamebuino.com/wiki/index.php?title=Main_Page |
 | Gamebuino META | ATSAMD21 (48 MHz Cortex M0+) | 32 KiB | 160x128 | RGB | C/C++ (Arduino) | 256KiB | Micro SD | 70 EUR | No | https://gamebuino.com/ |
 | GameGo   |  STM32F401 (84 MHz Cortex M4) | 96 KiB  | 160x128  |  RGB |  VPL (MakeCode Arcade)  |  512 KiB  |  N/A | 41.90 USD  | No  |  https://www.seeedstudio.com/GameGo-p-4847.html |
@@ -18,7 +19,7 @@ Cheap microcontrollers and bitmap screens have led to a new kind of game console
 | PyGamer/PyBadge | ATSAMD51J19 (120MHz Cortex M4F)  |  192 KiB   | 160x128    | RGB      | CircuitPython, VPL (MakeCode Arcade), C++ (Arduino) | 512KiB |   Micro SD  | 24.95 USD - 59.95 USD | Yes         | https://learn.adafruit.com/adafruit-pygamer |
 | Thumby | RP2040  (2x133 MHz Cortex M0+) | 264KiB    |   72x40  | 1-bit    | MicroPython , C/C++ (Arduino) | N/A  | 2 MiB Flash | TBD ($19 for backers) | Yes | https://www.kickstarter.com/projects/kenburns/thumby-the-tiny-playable-keychain  |
 | TinyArcade/PocketArcade | ATMega 328P (AVR 16MHz) | 2 KiB   |   96x64  | RGB    | C/C++ (Arduino) | 32 KiB    | Micro SD | 59.95  USD    | Yes | https://tinycircuits.com/collections/all/products/tinyarcade  
-| µgame | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB | 128×128 | 16-bit | MicroPython , CircuitPython | 256KiB | 2 MiB Flash | 24.99 USD | Yes | https://github.com/python-ugame https://www.tindie.com/products/deshipu/game-10-python-game-console-kit/ |
+| µgame | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB | 128×128 | RGB | MicroPython , CircuitPython | 256KiB | 2 MiB Flash | 24.99 USD | Yes | https://github.com/python-ugame https://www.tindie.com/products/deshipu/game-10-python-game-console-kit/ |
 
 If I missed a console leave a Pull Request or an Issue. The criteria to be included is.
 
