@@ -4,7 +4,7 @@ Cheap microcontrollers and bitmap screens have led to a new kind of game console
 | Name | Processor | RAM | Resolution | Color | Languages | Flash Size | Storage | Price | Schematic Available | URL |
 | ---- | --------- | --- | ---------- | ---------- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
 | Arduboy | ATMega 32u4 (16 MHz AVR)  | 2.5 KiB | 128x64 | 1-bit | C/C++ (Arduino) | 32 KiB | 128 MiB Flash (FX Model Only) | 54 USD (Clones at Various Prices)| Yes | https://arduboy.com |
-| Brainpad Pulse | SC13048Q (80Mhz Cortex M4) | 128 KiB |128x64    |1-bit   | VPL (MakeCode), C#, MicroPython  |  	220K  | N/A  | Quote  |  No | https://www.brainpad.com/brainpad-family/pulse/  |
+| Brainpad Pulse | SC13048Q (80 MHz Cortex M4) | 128 KiB |128x64    |1-bit   | VPL (MakeCode), C#, MicroPython  |  	220K  | N/A  | Quote  |  No | https://www.brainpad.com/brainpad-family/pulse/  |
 | Brainpad Arcade |  STM32F401 (84 MHz Cortex M4) | 96 KiB    | 160x128  | RGB  | VPL (MakeCode Arcade)  |  512KiB  |  N/A |  34.95 USD | No  |  https://www.brainpad.com/brainpad-family/arcade/ |
 | Dodo   | 65C02  (1 MHz)  | 32KiB | 128x64  | 1-bit   | C (CC65), 65C02 Assembly  | N/A  |  8 KiB FRAM | 199 USD  |  Yes |  http://www.dodolabs.io/ |
 | ESPboy  | ESP8266 (160 MHz Xtensa)   | 80 KiB  |  128x128 | 4-bit  | C (Little Game Engine, Arduboy),MicroPython, Z80 Assembly (Gameboy, ZX Spectrum), SChip-8  | 4 MiB  |  App Store | 99 USD  | Yes   | https://www.espboy.com/  |
@@ -16,7 +16,7 @@ Cheap microcontrollers and bitmap screens have led to a new kind of game console
 | MeowBit  | STM32F401 (84 MHz Cortex M4)   |   96 KiB    | 160x128    | RGB      | CircuitPython, VPL (MakeCode Arcade)   | 512KiB    | SD  | 39.95  USD    | Yes  |  https://meowbit.kittenbot.cc   |
 | MicroByte  |  ESP32 Wrover E (2x240 MHz Xtensa) | 8 MiB  | 240x240  | RGB  | MicroPython, C/C++ (Arduino), Z80 Assembly (Gameboy (Color), Sega Master System, Game Gear), 6502 Assembly (NES)  | 16 MiB  | N/A  | TBD  | Yes  | https://www.crowdsupply.com/byte-mix-labs/microbyte  |
 | Newbit Arcade Shield   | Nordic nRF52833 (64 MHz Cortex M4F)  | 128 KiB  | 160x128  |  RGB | MicroPython, VPL (MakeCode)  |  512 KiB |  N/A |  45.90 USD | No  |  https://www.kittenbot.cc/products/newbit-arcade-shield |
-| Nibble  |  ESP8266  | 80 KiB  | 128x128  | RGB  |  C/C++ (Arduino), VPL (CircuitBlocks)  |  4MiB | N/A  |  75.99 USD |  Yes |  https://circuitmess.com/nibble/ |
+| Nibble  |  ESP8266 (160 MHz Xtensa) | 80 KiB  | 128x128  | RGB  |  C/C++ (Arduino), VPL (CircuitBlocks)  |  4MiB | N/A  |  75.99 USD |  Yes |  https://circuitmess.com/nibble/ |
 | Ovobot Xtron Pro   |  STM32F41x (100 MHz Cortex M4) |   256 KiB | ?  | ?  |  VPL (MakeCode Arcade), 6502 Assembly (NES) |  128 KiB | 16 MiB Flash  | 85 USD  | No  | https://store.ovobot.cc/products/xtron-pro  |
 | PewPew M4   |  ATSAMD51G19A |  192 KiB | 160x128  | RGB  |  CircuitPython | 512 KiB  |  N/A |  25 USD | Yes  | https://pewpew.readthedocs.io/en/latest/pewpew-m4/overview.html https://makerfabs.com/circuitpython-pewpew-m4.html  |
 | PicoSystem   |  RP2040  (2x133 MHz Cortex M0+) | 264 KiB  |  240x240 | RGB  | C++,MicroPython,CircuitPython   | 16 MiB  |  N/A | 58.50 GBP  | No  |  https://shop.pimoroni.com/products/picosystem |
