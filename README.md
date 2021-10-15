@@ -35,6 +35,7 @@ These have a Rectangular Matrix of LEDs as opposed to an LCD, TFT or OLED screen
 | Name | Processor | RAM | Resolution | Color | Languages | Flash Size | Storage | Price | Schematic Available | URL |
 | ---- | --------- | --- | ---------- | ---------- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
 | GAME ZIP 64  | 	Same as micro:bit[^1] |  Same as micro:bit | 8x8  | 1-bit  | CircuitPython, VPL (MakeCode)  |   N/A | Same as micro:bit | 36.60 GBP + micro:bit |  Yes | https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit  |
+| Meggy Jr. RGB   | ATmega168   | 1 KiB  | 8x8  | 3-bit  | C/C++ (Arduino)  |  16 MiB | N/A  | 75 USD  |  Yes |  https://shop.evilmadscientist.com/productsmenu/tinykitlist/760 |
 | PewPew  | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB |  8x8  | 2-bit    |   CircuitPython|  256KiB   | N/A |  9.99 USD + Feather M0 Express (19.95 USD) | Yes  |  https://makerfabs.com/pewpew-standalone.html |
 
 
