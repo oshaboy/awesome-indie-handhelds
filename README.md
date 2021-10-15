@@ -3,6 +3,7 @@ Cheap microcontrollers and bitmap screens have led to a new kind of game console
 ## Bitmap Screen Games
 | Name | Processor | RAM | Resolution | Color | Languages | Flash Size | Storage | Price | Schematic Available | URL |
 | ---- | --------- | --- | ---------- | ---------- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
+| 32blit   | STM32H750 (480 MHz Cortex M7) | 1 MiB |  320x240   | RGB  |  C++, Lua  |  32 MiB | Micro SD | TBD  | TBD  |  https://32blit.com/ |
 | Arduboy | ATMega 32u4 (16 MHz AVR)  | 2.5 KiB | 128x64 | 1-bit | C/C++ (Arduino) | 32 KiB | 128 MiB Flash (FX Model Only) | 54 USD (Clones at Various Prices)| Yes | https://arduboy.com |
 | Brainpad Pulse | SC13048Q (80 MHz Cortex M4) | 128 KiB |128x64    |1-bit   | VPL (MakeCode), C#, MicroPython  |  	220K  | N/A  | Quote  |  Yes | https://www.brainpad.com/brainpad-family/pulse/  |
 | Brainpad Arcade |  STM32F401 (84 MHz Cortex M4) | 96 KiB    | 160x128  | RGB  | VPL (MakeCode Arcade)  |  512KiB  |  N/A |  34.95 USD | No  |  https://www.brainpad.com/brainpad-family/arcade/ |
