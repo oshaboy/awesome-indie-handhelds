@@ -43,9 +43,14 @@ These have a Rectangular Matrix of LEDs as opposed to an LCD, TFT or OLED screen
 [^1]: GAME ZIP 64 uses micro:bit based cartridges that contain the MCU
 
 
+## How to Contribute
 If I missed a console leave a Pull Request or an Issue. The criteria to be included is.
 
+0. Be a handheld device (not a console ala Hackivision or computer ala Commander X16)
 1. Purchasable in either kit form or as a product (No one off hobby projects and DIY instructions)
 2. Must be programmable by the end user (No LCD Games, Or Clone Consoles and Emulation Boxes that aren't for Homebrew)
 3. Mustn't run Linux or BSD (No Raspberry Pi based handhelds)
 4. Have buttons and a Pixel Grid Screen (No character LCDs or Touchscreen Only Devices)
+
+## Related Lists
+https://github.com/paladin-t/fantasy (For Fantasy Computers, game engines intended to look or act like a Retro Computer). 
