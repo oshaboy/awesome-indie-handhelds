@@ -1,4 +1,4 @@
-Cheap microcontrollers and bitmap screens have led to a new kind of game console. Which I nickname "Hobby Handhelds" or "Indie Handhelds". Unlike traditional handheld game consoles these systems are meant to run games made by hobbyists and easily programmed by the user. Nobody has yet compiled a list of them so I decided to do that.
+Cheap microcontrollers and bitmap screens have led to a new kind of game console. Which I nickname "Hobby Handhelds" or "Indie Handhelds". Unlike traditional handheld game consoles these systems are meant to run games made by hobbyists and easily programmed by the user. I decided to compile a list of them.
 
 ## Bitmap Screen Games
 | Name | Processor | RAM | Resolution | Color | Languages | Flash Size | Storage | Price | Schematic Available | URL |
