@@ -8,7 +8,7 @@ Cheap microcontrollers and bitmap screens have led to a new kind of game console
 | Brainpad Pulse | SC13048Q (80 MHz Cortex M4) | 128 KiB |128x64    |1-bit   | VPL (MakeCode), C#, MicroPython  |  	220K  | N/A  | Quote  |  Yes | https://www.brainpad.com/brainpad-family/pulse/  |
 | Brainpad Arcade |  STM32F401 (84 MHz Cortex M4) | 96 KiB    | 160x128  | RGB  | VPL (MakeCode Arcade)  |  512KiB  |  N/A |  34.95 USD | No  |  https://www.brainpad.com/brainpad-family/arcade/ |
 | Dodo   | 65C02  (1 MHz)  | 32KiB | 128x64  | 1-bit   | C (CC65), 65C02 Assembly  | N/A  |  8 KiB FRAM | 199 USD  |  Yes |  http://www.dodolabs.io/ |
-| ESPboy  | ESP8266 (160 MHz Xtensa)   | 80 KiB  |  128x128 | 4-bit  | C (Little Game Engine, Arduboy),MicroPython, Z80 Assembly (Gameboy, ZX Spectrum), SChip-8  | 4 MiB  |  App Store | 99 USD  | Yes   | https://www.espboy.com/  |
+| ESPboy  | ESP8266 (160 MHz Xtensa)   | 80 KiB  |  128x128 | RGB | C/C++ (Little Game Engine, Arduino, Arduboy, Gamebuino META), Lua, BASIC, MicroPython, Z80 Assembly (Gameboy, ZX Spectrum), SChip-8  | 4 MiB  |  App Store | 99 USD  | Yes   | https://www.espboy.com/  |
 |ESPlay Micro V2   |  ESP32 WROVER (2x240 MHz Xtensa) |  4MiB-8MiB  | 320x240  | RGB  |  MicroPython, C/C++ (Arduino), Z80 Assembly (Gameboy (Color), Master System, Game Gear, Colecovision), 6502 Assembly (NES) | 4MiB   | Micro SD |  32.90 USD   | Yes  |  https://hackaday.io/project/166707-esplay-micro |
 | Gamebuino/MAKERbuino | ATMega 328 (16 MHz AVR) | 2 KiB | 84x48  | 1-bit | C/C++ (Arduino) | 32KiB |  Micro SD | ~70 USD | Yes | http://legacy.gamebuino.com/wiki/index.php?title=Main_Page |
 | Gamebuino META | ATSAMD21 (48 MHz Cortex M0+) | 32 KiB | 160x128 | RGB | C/C++ (Arduino) | 256KiB | Micro SD | 70 EUR | No | https://gamebuino.com/ |
