@@ -54,3 +54,4 @@ If I missed a console leave a Pull Request or an Issue. The criteria to be inclu
 
 ## Related Lists
 https://github.com/paladin-t/fantasy (For Fantasy Computers, game engines intended to look or act like a Retro Computer). 
+https://aced.io/oshw-gaming/ (A similar list that includes consoles)
