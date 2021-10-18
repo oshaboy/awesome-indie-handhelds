@@ -27,7 +27,8 @@ Cheap microcontrollers and bitmap screens have led to a new kind of game console
 | PyGamer/PyBadge | ATSAMD51J19 (120MHz Cortex M4F)  |  192 KiB   | 160x128    | RGB    | 1-bit Speaker | CircuitPython, VPL (MakeCode Arcade), C++ (Arduino) | 512KiB |   Micro SD  | 24.95 USD - 59.95 USD | Yes  | https://learn.adafruit.com/adafruit-pygamer |
 | Retro Game Tiny    | ATtiny85 (20 MHz AVR) | 512 B  | 120x64  | 1-bit  |1-bit Buzzer |  C/C++ (Arduino) | 8 KiB  | N/A  | 19.99 USD  | Yes  |  https://www.tindie.com/products/jasonkits/retro-game-tiny-oled-arcade-console/ |  
 | Thumby | RP2040  (2x133 MHz Cortex M0+) | 264KiB    |   72x40  | 1-bit  | 1-bit Buzzer | MicroPython , C/C++ (Arduino) | N/A  | 2 MiB Flash | TBD ($19 for backers) | Yes | https://www.kickstarter.com/projects/kenburns/thumby-the-tiny-playable-keychain  |
-| TinyArcade/PocketArcade | ATMega 328P (16 MHz AVR) | 2 KiB   |   96x64  | RGB | 1-bit Speaker  | C/C++ (Arduino) | 32 KiB    | Micro SD | 59.95  USD    | Yes | https://tinycircuits.com/collections/all/products/tinyarcade  
+| TinyArcade/PocketArcade | ATMega 328P (16 MHz AVR) | 2 KiB   |   96x64  | RGB | 1-bit Speaker  | C/C++ (Arduino) | 32 KiB    | Micro SD | 59.95  USD    | Yes | https://tinycircuits.com/collections/all/products/tinyarcade  |
+| Tiny Joypad  | ATtiny85 (in cartridge) (20 MHz AVR)|  512 B | 128X64   |  1-bit |   1-bit Speaker | C/C++ (Arduino)  | N/A |  8 KiB  |  25 USD | Yes  | https://www.tinyjoypad.com/  |
 | µgame | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB | 128×128 | RGB | 1-bit Speaker |MicroPython , CircuitPython | 256KiB | 2 MiB Flash | 24.99 USD | Yes | https://github.com/python-ugame https://www.tindie.com/products/deshipu/game-10-python-game-console-kit/ |
 
 ## LED Matrix Games
