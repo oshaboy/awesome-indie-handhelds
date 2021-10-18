@@ -1,7 +1,7 @@
 Cheap microcontrollers and bitmap screens have led to a new kind of game console. Which I nickname "Hobby Handhelds" or "Indie Handhelds". Unlike traditional handheld game consoles these systems are meant to run games made by hobbyists and easily programmed by the user. I decided to compile a list of them.
 
 ## Bitmap Screen Games
-| Name | Processor | RAM | Resolution | Color | Sound | Languages | Flash Size | Storage | Price | Schematic Available | URL |
+| Name | Processor | RAM | Resolution | Color | Sound (TODO) | Languages | Flash Size | Storage | Price | Schematic Available | URL |
 | ---- | --------- | --- | ---------- | ----- | ----- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
 | 32blit   | STM32H750 (480 MHz Cortex M7) | 1 MiB |  320x240   | RGB | |  C++, Lua  |  32 MiB | Micro SD | TBD  | TBD  |  https://32blit.com/ |
 | Arduboy | ATMega 32u4 (16 MHz AVR)  | 2.5 KiB | 128x64 | 1-bit || C/C++ (Arduino) | 32 KiB | 128 MiB Flash (FX Model Only) | 54 USD (Clones at Various Prices)| Yes | https://arduboy.com |
@@ -33,7 +33,7 @@ Cheap microcontrollers and bitmap screens have led to a new kind of game console
 ## LED Matrix Games
 These have a Rectangular Matrix of LEDs as opposed to an LCD, TFT or OLED screen and therefore have <200 dots. You could still make crude games on them but not much more than snake.
 
-| Name | Processor | RAM | Resolution | Color | Sound | Languages | Flash Size | Storage | Price | Schematic Available | URL |
+| Name | Processor | RAM | Resolution | Color | Sound (TODO) | Languages | Flash Size | Storage | Price | Schematic Available | URL |
 | ---- | --------- | --- | ---------- | -------- | --- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
 | GAME ZIP 64  | 	Same as micro:bit[^1] |  Same as micro:bit | 8x8  | 1-bit | | CircuitPython, VPL (MakeCode)  |   N/A | Same as micro:bit | 36.60 GBP + micro:bit |  Yes | https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit  |
 | Meggy Jr. RGB   | ATmega168   | 1 KiB  | 8x8  | 3-bit | | C/C++ (Arduino)  |  16 MiB | N/A  | 75 USD  |  Yes |  https://shop.evilmadscientist.com/productsmenu/tinykitlist/760 |
