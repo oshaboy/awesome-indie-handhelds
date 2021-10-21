@@ -38,7 +38,7 @@ These have a Rectangular Matrix of LEDs as opposed to an LCD, TFT or OLED screen
 
 | Name | Processor | RAM | Resolution | Color | Sound | Languages | Flash Size | Storage | Price | Schematic Available | URL |
 | ---- | --------- | --- | ---------- | -------- | --- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
-| 2048   | ATMega2560 (16 MHz AVR)  | 8 KiB  |  64x32 |  RGB  | ?  |   C/C++ (Arduino)|256KiB   | N/A  | 189 USD  |  No |  https://www.creoqode.com/2048 |
+| 2048   | ATMega2560 (16 MHz AVR)  | 8 KiB  |  64x32 |  RGB  | ?  |   C/C++ (Arduino)|256KiB   | N/A  | 189 GBP  |  No |  https://www.creoqode.com/2048 |
 | DigiPixel   | Same as Arduino [^1] |  Same as Arduino  | 8x8  | 3-Bit  |  N/A |  C/C++ (Arduino) | Same as Arduino  | N/A  |  19.95 USD + Arduino  | No  | http://digistump.com/products/108  |
 | GAME ZIP 64  | 	Same as micro:bit [^2]|  Same as micro:bit | 8x8  | 1-bit | 1-bit Buzzer (+1 if cartridge has buzzer) | CircuitPython, VPL (MakeCode)  |   N/A | Same as micro:bit | 36.60 GBP + micro:bit |  Yes | https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit  |
 | Meggy Jr. RGB   | ATmega168  (16MHz AVR) | 1 KiB  | 8x8  | 3-bit | 1-bit Buzzer | C/C++ (Arduino)  |  16 MiB | N/A  | 75 USD  |  Yes |  https://shop.evilmadscientist.com/productsmenu/tinykitlist/760 |
