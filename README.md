@@ -38,7 +38,7 @@ These have a Rectangular Matrix of LEDs as opposed to an LCD, TFT or OLED screen
 
 | Name | Processor | RAM | Resolution | Color | Sound | Languages | Flash Size | Storage | Price | Schematic Available | URL |
 | ---- | --------- | --- | ---------- | -------- | --- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
-| 2048   | ATMega2560 (16 MHz AVR)  | 8 KiB  |  64x32 |  RGB  | ?  |   C/C++ (Arduino)|256KiB   | N/A  | 189 GBP  |  No |  https://www.creoqode.com/2048 |
+| 2048   | ATMega2560 (16 MHz AVR)  | 8 KiB  |  64x32 |  RGB  | N/A |   C/C++ (Arduino)|256KiB   | N/A  | 189 GBP  |  No |  https://www.creoqode.com/2048 |
 | Meggy Jr. RGB   | ATmega168  (16MHz AVR) | 1 KiB  | 8x8  | 3-bit | 1-bit Buzzer | C/C++ (Arduino)  |  16 MiB | N/A  | 75 USD  |  Yes |  https://shop.evilmadscientist.com/productsmenu/tinykitlist/760 |
 | PewPew  | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB |  8x8  | 2-bit    | N/A  | CircuitPython|  256KiB   | N/A |  9.99 USD + Feather M0 Express (19.95 USD) | Yes  |  https://makerfabs.com/pewpew-standalone.html |
 
