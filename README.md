@@ -11,6 +11,7 @@ Cheap microcontrollers and bitmap screens have led to a new kind of game console
 | Dodo   | 65C02  (1 MHz)  | 32KiB | 128x64  | 1-bit   |1xBuzzer| C (CC65), 65C02 Assembly  | N/A  |  8 KiB FRAM | 199 USD  |  Yes |  http://www.dodolabs.io/ |
 | ESPboy  | ESP8266 (160 MHz Xtensa)   | 80 KiB  |  128x128 | RGB |1-bit Speaker| C/C++ (Little Game Engine, Arduino, Arduboy, Gamebuino META), Lua, BASIC, MicroPython, Z80 Assembly (Gameboy, ZX Spectrum), SChip-8  | 4 MiB  |  App Store | 99 USD  | Yes   | https://www.espboy.com/  |
 |ESPlay Micro V2   |  ESP32 WROVER (2x240 MHz Xtensa) |  4MiB-8MiB  | 320x240  | RGB | UDA1334A (16-bit DAC) |  MicroPython, C/C++ (Arduino), Z80 Assembly (Gameboy (Color), Master System, Game Gear, Colecovision), 6502 Assembly (NES) | 4MiB   | Micro SD |  32.90 USD   | Yes  |  https://hackaday.io/project/166707-esplay-micro |
+
 | Gamebuino/MAKERbuino | ATMega 328 (16 MHz AVR) | 2 KiB | 84x48  | 1-bit| 4x1-bit Speaker | C/C++ (Arduino) | 32KiB |  Micro SD | ~70 USD | Yes | http://legacy.gamebuino.com/wiki/index.php?title=Main_Page |
 | Gamebuino META | ATSAMD21 (48 MHz Cortex M0+) | 32 KiB | 160x128 | RGB |10-bit DAC| C/C++ (Arduino) | 256KiB | Micro SD | 70 EUR | No | https://gamebuino.com/ |
 | GameGo   |  STM32F401 (84 MHz Cortex M4) | 96 KiB  | 160x128  |  RGB |1-bit Speaker | VPL (MakeCode Arcade)  |  512 KiB  |  N/A | 41.90 USD  | No  |  https://www.seeedstudio.com/GameGo-p-4847.html |
@@ -39,15 +40,18 @@ These have a Rectangular Matrix of LEDs as opposed to an LCD, TFT or OLED screen
 | Name | Processor | RAM | Resolution | Color | Sound | Languages | Flash Size | Storage | Price | Schematic Available | URL |
 | ---- | --------- | --- | ---------- | -------- | --- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
 | 2048   | ATMega2560 (16 MHz AVR)  | 8 KiB  |  64x32 |  RGB  | ?  |   C/C++ (Arduino)|256KiB   | N/A  | 189 GBP  |  No |  https://www.creoqode.com/2048 |
-| DigiPixel   | Same as Arduino [^1] |  Same as Arduino  | 8x8  | 3-Bit  |  N/A |  C/C++ (Arduino) | Same as Arduino  | N/A  |  19.95 USD + Arduino  | No  | http://digistump.com/products/108  |
-| GAME ZIP 64  | 	Same as micro:bit [^2]|  Same as micro:bit | 8x8  | 1-bit | 1-bit Buzzer (+1 if cartridge has buzzer) | CircuitPython, VPL (MakeCode)  |   N/A | Same as micro:bit | 36.60 GBP + micro:bit |  Yes | https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit  |
 | Meggy Jr. RGB   | ATmega168  (16MHz AVR) | 1 KiB  | 8x8  | 3-bit | 1-bit Buzzer | C/C++ (Arduino)  |  16 MiB | N/A  | 75 USD  |  Yes |  https://shop.evilmadscientist.com/productsmenu/tinykitlist/760 |
 | PewPew  | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB |  8x8  | 2-bit    | N/A  | CircuitPython|  256KiB   | N/A |  9.99 USD + Feather M0 Express (19.95 USD) | Yes  |  https://makerfabs.com/pewpew-standalone.html |
 
+## Shields and Add Ons
 
-[^1]: DigiPixel is an Add on for a full sized Arduino
+Finally we have shields and Add Ons. To Qualify for this list you need to add buttons and a display.
 
-[^2]: GAME ZIP 64 uses micro:bit based cartridges that contain the MCU
+| Name | Interface | Display Type| Resolution | Color | Sound | Storage| Price |  Schematic Available| URL |
+| --- | ------------- | -------| ---------- | ---- | ------ | ----| -----| ----| - |
+|  DigiPixel |  Arduino |LED Array| 8x8  |  3-bit | N/A| N/A |  19.95 USD | No  | http://digistump.com/products/108  |
+|Gamby   |  Arduino | Screen | 96x64  | 1-bit  |  1-bit Buzzer | N/A  | 25 USD  | Yes  |http://logicalzero.com/gamby/   |
+|   GAME ZIP 64  |  micro:bit | LED Array| 8x8  |  1-bit   |   1-bit Buzzer | N/A  | 36.60 GBP  | Yes  |  https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit |
 
 
 ## How to Contribute
