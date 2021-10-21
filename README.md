@@ -26,6 +26,7 @@ Cheap microcontrollers and bitmap screens have led to a new kind of game console
 | Playdate | 180MHz Cortex M7 | 16 MiB | 400x240    | 1-bit    |  2x1-bit Speaker | Lua, C  |  TBD  | 4GB Flash, Weekly Digital Download  | 179 USD            |  No  | https://play.date/   |
 | Pokitto         | LPC11U6x (72 MHz Cortex M0+) | 36 KiB | 220x176    | 8-bit |8-bit Speaker| MicroPython, C/C++ (Native, Arduboy, Gamebuino), Java | 256kiB   | Micro SD   | 49.90 EUR        |    Yes  | https://www.pokitto.com/ |
 | PyGamer/PyBadge | ATSAMD51J19 (120MHz Cortex M4F)  |  192 KiB   | 160x128    | RGB    | 1-bit Speaker | CircuitPython, VPL (MakeCode Arcade), C++ (Arduino) | 512KiB |   Micro SD  | 24.95 USD - 59.95 USD | Yes  | https://learn.adafruit.com/adafruit-pygamer |
+| PYXA | ATMega 328 (16 MHz AVR) | 2 KiB | 160x128 | RGB | 1-bit Buzzer | C/C++ (Arduino) | 32KiB | Micro SD  |  99 GBP| No | https://www.creoqode.com/pyxa |
 | Retro Game Tiny    | ATtiny85 (20 MHz AVR) | 512 B  | 120x64  | 1-bit  |1-bit Buzzer |  C/C++ (Arduino) | 8 KiB  | N/A  | 19.99 USD  | Yes  |  https://www.tindie.com/products/jasonkits/retro-game-tiny-oled-arcade-console/ |  
 | Thumby | RP2040  (2x133 MHz Cortex M0+) | 264KiB    |   72x40  | 1-bit  | 1-bit Buzzer | MicroPython , C/C++ (Arduino) | N/A  | 2 MiB Flash | TBD ($19 for backers) | Yes | https://www.kickstarter.com/projects/kenburns/thumby-the-tiny-playable-keychain  |
 | TinyArcade/PocketArcade | ATMega 328P (16 MHz AVR) | 2 KiB   |   96x64  | RGB | 1-bit Speaker  | C/C++ (Arduino) | 32 KiB    | Micro SD | 59.95  USD    | Yes | https://tinycircuits.com/collections/all/products/tinyarcade  |
@@ -33,17 +34,20 @@ Cheap microcontrollers and bitmap screens have led to a new kind of game console
 | µgame | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB | 128×128 | RGB | 1-bit Speaker |MicroPython , CircuitPython | 256KiB | 2 MiB Flash | 24.99 USD | Yes | https://github.com/python-ugame https://www.tindie.com/products/deshipu/game-10-python-game-console-kit/ |
 
 ## LED Matrix Games
-These have a Rectangular Matrix of LEDs as opposed to an LCD, TFT or OLED screen and therefore have <200 dots. You could still make crude games on them but not much more than snake.
+These have a Rectangular Matrix of LEDs as opposed to an LCD, TFT or OLED screen and therefore usually have <200 dots. You could still make crude games on them but not much more than snake.
 
 | Name | Processor | RAM | Resolution | Color | Sound | Languages | Flash Size | Storage | Price | Schematic Available | URL |
 | ---- | --------- | --- | ---------- | -------- | --- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
-| DigiPixel   | Same as Arduino  |  Same as Arduino  | 8x8  | 3-Bit  |  N/A |  C/C++ (Arduino) | Same as Arduino  | N/A  |  19.95 USD | No  | http://digistump.com/products/108  |
-| GAME ZIP 64  | 	Same as micro:bit[^1] |  Same as micro:bit | 8x8  | 1-bit | 1-bit Buzzer (+1 if cartridge has buzzer) | CircuitPython, VPL (MakeCode)  |   N/A | Same as micro:bit | 36.60 GBP + micro:bit |  Yes | https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit  |
-| Meggy Jr. RGB   | ATmega168   | 1 KiB  | 8x8  | 3-bit | 1-bit Buzzer | C/C++ (Arduino)  |  16 MiB | N/A  | 75 USD  |  Yes |  https://shop.evilmadscientist.com/productsmenu/tinykitlist/760 |
+| 2048   | ATMega2560 (16 MHz AVR)  | 8 KiB  |  64x32 |  RGB  | ?  |   C/C++ (Arduino)|256KiB   | N/A  | 189 USD  |  No |  https://www.creoqode.com/2048 |
+| DigiPixel   | Same as Arduino [^1] |  Same as Arduino  | 8x8  | 3-Bit  |  N/A |  C/C++ (Arduino) | Same as Arduino  | N/A  |  19.95 USD + Arduino  | No  | http://digistump.com/products/108  |
+| GAME ZIP 64  | 	Same as micro:bit [^2]|  Same as micro:bit | 8x8  | 1-bit | 1-bit Buzzer (+1 if cartridge has buzzer) | CircuitPython, VPL (MakeCode)  |   N/A | Same as micro:bit | 36.60 GBP + micro:bit |  Yes | https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit  |
+| Meggy Jr. RGB   | ATmega168  (16MHz AVR) | 1 KiB  | 8x8  | 3-bit | 1-bit Buzzer | C/C++ (Arduino)  |  16 MiB | N/A  | 75 USD  |  Yes |  https://shop.evilmadscientist.com/productsmenu/tinykitlist/760 |
 | PewPew  | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB |  8x8  | 2-bit    | N/A  | CircuitPython|  256KiB   | N/A |  9.99 USD + Feather M0 Express (19.95 USD) | Yes  |  https://makerfabs.com/pewpew-standalone.html |
 
 
-[^1]: GAME ZIP 64 uses micro:bit based cartridges that contain the MCU
+[^1]: DigiPixel is an Add on for a full sized Arduino
+
+[^2]: GAME ZIP 64 uses micro:bit based cartridges that contain the MCU
 
 
 ## How to Contribute
@@ -56,5 +60,5 @@ If I missed a console leave a Pull Request or an Issue. The criteria to be inclu
 4. Have buttons and a Pixel Grid Screen (No character LCDs or Touchscreen Only Devices)
 
 ## Related Lists
-https://github.com/paladin-t/fantasy (For Fantasy Computers, game engines intended to look or act like a Retro Computer).
+https://github.com/paladin-t/fantasy (For Fantasy Computers, game engines intended to look or act like a Retro Computer).  
 https://aced.io/oshw-gaming/ (A similar list that includes consoles)
