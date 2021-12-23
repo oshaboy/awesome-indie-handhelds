@@ -5,9 +5,9 @@ Cheap microcontrollers and bitmap screens have led to a new kind of game console
 | ---- | --------- | --- | ---------- | ----- | ----- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
 | 32blit   | STM32H750 (480 MHz Cortex M7) | 1 MiB |  320x240   | RGB | TBD |  C++, Lua  |  32 MiB | Micro SD | TBD  | TBD  |  https://32blit.com/ |
 | Arduboy | ATMega 32u4 (16 MHz AVR)  | 2.5 KiB | 128x64 | 1-bit | 2x1-bit Buzzer| C/C++ (Arduino) | 32 KiB | 128 MiB Flash (FX Model Only) | 54 USD (Clones at Various Prices)| Yes | https://arduboy.com |
-| Brainpad Pulse | SC13048Q (80 MHz Cortex M4) | 128 KiB |128x64    |1-bit   |1-bit Buzzer| VPL (MakeCode), C#, MicroPython  |  	220K  | N/A  | Quote  |  Yes | https://www.brainpad.com/brainpad-family/pulse/  |
 | Attiny Arcade   | ATtiny85 (20 MHz AVR) | 512 B  | 128x64  | 1-bit  |  1-bit Buzzer |  C/C++ (Arduino) | 8 KiB  | N/A  | 29.98 USD  | Yes  |  https://webboggles.com/attiny85-game-kit-assembly-instructions/ |
 | Brainpad Arcade |  STM32F401 (84 MHz Cortex M4) | 96 KiB    | 160x128  | RGB  |1-bit Buzzer| VPL (MakeCode Arcade)  |  512KiB  |  N/A |  34.95 USD | No  |  https://www.brainpad.com/brainpad-family/arcade/ |
+| Brainpad Pulse | SC13048Q (80 MHz Cortex M4) | 128 KiB |128x64    |1-bit   |1-bit Buzzer| VPL (MakeCode), C#, MicroPython  |  	220K  | N/A  | Quote  |  Yes | https://www.brainpad.com/brainpad-family/pulse/  |
 | Dodo   | 65C02  (1 MHz)  | 32KiB | 128x64  | 1-bit   |1xBuzzer| C (CC65), 65C02 Assembly  | N/A  |  8 KiB FRAM | 199 USD  |  Yes |  http://www.dodolabs.io/ |
 | ESPboy  | ESP8266 (160 MHz Xtensa)   | 80 KiB  |  128x128 | RGB |1-bit Speaker| C/C++ (Little Game Engine, Arduino, Arduboy, Gamebuino META), Lua, BASIC, MicroPython, Z80 Assembly (Gameboy, ZX Spectrum), SChip-8  | 4 MiB  |  App Store | 99 USD  | Yes   | https://www.espboy.com/  |
 |ESPlay Micro V2   |  ESP32 WROVER (2x240 MHz Xtensa) |  4MiB-8MiB  | 320x240  | RGB | UDA1334A (16-bit DAC) |  MicroPython, C/C++ (Arduino), Z80 Assembly (Gameboy (Color), Master System, Game Gear, Colecovision), 6502 Assembly (NES) | 4MiB   | Micro SD |  32.90 USD   | Yes  |  https://hackaday.io/project/166707-esplay-micro |
@@ -49,7 +49,7 @@ Finally we have shields and Add Ons. To Qualify for this list you need to add bu
 | Name | Interface | Display Type| Resolution | Color | Sound | Storage| Price |  Schematic Available| URL |
 | --- | ------------- | -------| ---------- | ---- | ------ | ----| -----| ----| - |
 |  DigiPixel |  Arduino |LED Array| 8x8  |  3-bit | N/A| N/A |  19.95 USD | No  | http://digistump.com/products/108  |
-|Gamby   |  Arduino | Screen | 96x64  | 1-bit  |  1-bit Buzzer | N/A  | 25 USD  | Yes  |http://logicalzero.com/gamby/   |
+| Gamby   |  Arduino | Screen | 96x64  | 1-bit  |  1-bit Buzzer | N/A  | 25 USD  | Yes  |http://logicalzero.com/gamby/   |
 |   GAME ZIP 64  |  micro:bit | LED Array| 8x8  |  1-bit   |   1-bit Buzzer | N/A  | 36.60 GBP  | Yes  |  https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit |
 
 
