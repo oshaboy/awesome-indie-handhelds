@@ -18,7 +18,6 @@ Cheap microcontrollers and bitmap screens have led to a new kind of game console
 | KOKO   | ATtiny85 (20 MHz AVR) | 512 B  | 120x64  | 1-bit  |1-bit Buzzer|  C/C++ (Arduino) | 8 KiB  | N/A  | 37.50 USD  | Yes  |  https://www.tindie.com/products/el9000/koko-a-retro-game-console-kit-diy-and-hackable/ |
 | MeowBit  | STM32F401 (84 MHz Cortex M4)   |   96 KiB    | 160x128    | RGB     | 1-bit Buzzer| CircuitPython, VPL (MakeCode Arcade)   | 512KiB    | SD  | 39.95  USD    | Yes  |  https://meowbit.kittenbot.cc   |
 | MicroByte  |  ESP32 WROVER E (2x240 MHz Xtensa) | 8 MiB  | 240x240  | RGB  |1-bit Buzzer| MicroPython, C/C++ (Arduino), Z80 Assembly (Gameboy (Color), Sega Master System, Game Gear), 6502 Assembly (NES)  | 16 MiB  | N/A  | TBD  | Yes  | https://www.crowdsupply.com/byte-mix-labs/microbyte  |
-| Newbit Arcade Shield   | Nordic nRF52833 (64 MHz Cortex M4F)  | 128 KiB  | 160x128  |  RGB | 1-bit Buzzer| MicroPython, VPL (MakeCode)  |  512 KiB |  N/A |  45.90 USD | No  |  https://www.kittenbot.cc/products/newbit-arcade-shield |
 | Nibble  |  ESP8266 (160 MHz Xtensa) | 80 KiB  | 128x128  | RGB  |1-bit Buzzer|  C/C++ (Arduino), VPL (CircuitBlocks)  |  4MiB | N/A  |  75.99 USD |  Yes |  https://circuitmess.com/nibble/ |
 | Xtron Pro   |  STM32F41x (100 MHz Cortex M4) |   256 KiB | ?  | ?  |?|  VPL (MakeCode Arcade), 6502 Assembly (NES) |  128 KiB | 16 MiB Flash  | 85 USD  | No  | https://store.ovobot.cc/products/xtron-pro  |
 | PewPew M4   |  ATSAMD51G19A |  192 KiB | 160x128  | RGB  | 1-bit Buzzer| CircuitPython | 512 KiB  |  N/A |  25 USD | Yes  | https://pewpew.readthedocs.io/en/latest/pewpew-m4/overview.html https://makerfabs.com/circuitpython-pewpew-m4.html  |
@@ -52,6 +51,7 @@ Finally we have shields and Add Ons. To Qualify for this list you need to add bu
 |  DigiPixel |  Arduino |LED Array| 8x8  |  3-bit | N/A| N/A |  19.95 USD | No  | http://digistump.com/products/108  |
 | Gamby   |  Arduino | Screen | 96x64  | 1-bit  |  1-bit Buzzer | N/A  | 25 USD  | Yes  |http://logicalzero.com/gamby/   |
 |   GAME ZIP 64  |  micro:bit | LED Array| 8x8  |  1-bit   |   1-bit Buzzer | N/A  | 36.60 GBP  | Yes  |  https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit |
+| Newbit Arcade Shield   | micro:bit V2  | Screen | 160x128  | RGB  |  N/A | N/A  | 26.90 USD  | No  |  https://www.kittenbot.cc/products/newbit-arcade-shield |
 
 
 ## How to Contribute
