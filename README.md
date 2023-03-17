@@ -18,8 +18,8 @@ Cheap microcontrollers and bitmap screens have led to a new class of game consol
 | KOKO   | ATtiny85 (20 MHz AVR) | 512 B  | 120x64  | 1-bit  |1-bit Buzzer|  C/C++ (Arduino) | 8 KiB  | N/A  | 37.50 USD  | Yes  |  https://www.tindie.com/products/el9000/koko-a-retro-game-console-kit-diy-and-hackable/ |
 | MeowBit  | STM32F401 (84 MHz Cortex M4)   |   96 KiB    | 160x128    | RGB     | 1-bit Buzzer| CircuitPython, VPL (MakeCode Arcade)   | 512KiB    | SD  | 39.95  USD    | Yes  |  https://meowbit.kittenbot.cc   |
 | MicroByte  |  ESP32 WROVER E (2x240 MHz Xtensa) | 8 MiB  | 240x240  | RGB  |1-bit Buzzer| MicroPython, C/C++ (Arduino), Z80 Assembly (Gameboy (Color), Sega Master System, Game Gear), 6502 Assembly (NES)  | 16 MiB  | N/A  | TBD  | Yes  | https://www.crowdsupply.com/byte-mix-labs/microbyte  |
-| Nibble  |  ESP8266 (160 MHz Xtensa) | 80 KiB  | 128x128  | RGB  |1-bit Buzzer|  C/C++ (Arduino), VPL (CircuitBlocks)  |  4MiB | N/A  |  75.99 USD |  Yes |  https://circuitmess.com/nibble/ |
-| Xtron Pro   |  STM32F41x (100 MHz Cortex M4) |   256 KiB | ?  | ?  |?|  VPL (MakeCode Arcade), 6502 Assembly (NES) |  128 KiB | 16 MiB Flash  | 85 USD  | No  | https://store.ovobot.cc/products/xtron-pro  |
+| Nibble  |  ESP8266 (160 MHz Xtensa) | 80 KiB  | 128x128  | RGB  |1-bit Buzzer|  C/C++ (Arduino), Python, VPL (CircuitBlocks)  |  4MiB | N/A  |  75.99 USD |  Yes |  https://circuitmess.com/nibble/ |
+| Xtron Pro   |  STM32F41x (100 MHz Cortex M4) |   256 KiB | 160x128  | RGB  | 1-bit Speaker |  VPL (MakeCode Arcade, Xmaker), 6502 Assembly (NES) |  1 MiB | 16 MiB Flash  | 85 USD  | No  | https://store.ovobot.cc/products/xtron-pro  |
 | PewPew M4   |  ATSAMD51G19A |  192 KiB | 160x128  | RGB  | 1-bit Buzzer| CircuitPython | 512 KiB  |  N/A |  25 USD | Yes  | https://pewpew.readthedocs.io/en/latest/pewpew-m4/overview.html https://makerfabs.com/circuitpython-pewpew-m4.html  |
 | PicoSystem   |  RP2040  (2x133 MHz Cortex M0+) | 264 KiB  |  240x240 | RGB  |1-bit Buzzer| C++,MicroPython,CircuitPython   | 16 MiB  |  N/A | 58.50 GBP  | No  |  https://shop.pimoroni.com/products/picosystem |
 | Playdate | STM32F746IGK (180MHz Cortex M7) | 16 MiB  | 400x240    | 1-bit    |  2x1-bit Speaker | Lua, C  |  1 MiB  | 4GB Flash, Weekly Digital Download  | 179 USD            |  No  | https://play.date/   |
@@ -32,7 +32,8 @@ Cheap microcontrollers and bitmap screens have led to a new class of game consol
 | Thumby | RP2040  (2x133 MHz Cortex M0+) | 264KiB    |   72x40  | 1-bit  | 1-bit Buzzer | MicroPython , C/C++ (Arduino) | N/A  | 2 MiB Flash | 29.95 USD | Yes | https://www.kickstarter.com/projects/kenburns/thumby-the-tiny-playable-keychain  |
 | TinyArcade/PocketArcade | ATMega 328P (16 MHz AVR) | 2 KiB   |   96x64  | RGB | 1-bit Speaker  | C/C++ (Arduino) | 32 KiB    | Micro SD | 59.95  USD    | Yes | https://tinycircuits.com/collections/all/products/tinyarcade  |
 | Tiny Joypad  | ATtiny85 (in cartridge) (20 MHz AVR)|  512 B | 128X64   |  1-bit |   1-bit Speaker | C/C++ (Arduino) |  N/A  | 8 KiB  |  25 USD | Yes  | https://www.tinyjoypad.com/  |
-| µgame | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB | 128×128 | RGB | 1-bit Speaker |MicroPython , CircuitPython | 256KiB | 2 MiB Flash | 24.99 USD | Yes | https://github.com/python-ugame https://www.tindie.com/products/deshipu/game-10-python-game-console-kit/ |
+| TomatoCube* | STM32F41x (100 Mhz Cortex M4) | 256 KiB | 160x128 | RGB | 1-bit Buzzer | VPL (Makecode Arcade) | 512 KiB | N/A | 159 RM | No | https://tomatocube.com/product/makecode-arcade-console/ |
+| µgame | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB | 128×128 | RGB | 1-bit Speaker | MicroPython , CircuitPython | 256KiB | 2 MiB Flash | 24.99 USD | Yes | https://github.com/python-ugame https://www.tindie.com/products/deshipu/game-10-python-game-console-kit/ |
 
 ## LED Matrix Games
 These have a Rectangular Matrix of LEDs as opposed to an LCD, TFT or OLED screen and therefore usually have <200 dots. You could still make crude games on them but not much more than snake.
@@ -53,7 +54,7 @@ Finally we have shields and Add Ons. To Qualify for this list you need to add bu
 | Gamby   |  Arduino | Screen | 96x64  | 1-bit  |  1-bit Buzzer | N/A  | 25 USD  | Yes  |http://logicalzero.com/gamby/   |
 |   GAME ZIP 64  |  micro:bit | LED Array| 8x8  |  1-bit   |   1-bit Buzzer | N/A  | 36.60 GBP  | Yes  |  https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit |
 | Newbit Arcade Shield   | micro:bit V2  | Screen | 160x128  | RGB  |  N/A | N/A  | 26.90 USD  | No  |  https://www.kittenbot.cc/products/newbit-arcade-shield |
-
+| TomatoCube* | micro:bit V2 | Screen | 160x128 | RGB | 1-bit Buzzer | N/A | 130 RM | No | https://tomatocube.com/product/makecode-arcade-shield-for-microbit/ |
 
 ## How to Contribute
 If I missed a console leave a Pull Request or an Issue. The criteria to be included is.
