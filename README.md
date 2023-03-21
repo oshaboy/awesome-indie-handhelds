@@ -8,16 +8,17 @@ Cheap microcontrollers and bitmap screens have led to a new class of game consol
 | Attiny Arcade   | ATtiny85 (20 MHz AVR) | 512 B  |  128x64 1-bit (SSD1306) |  1-bit Buzzer |  C/C++ (Arduino) | 8 KiB  | N/A  | 29.98 USD  | Yes  |  https://webboggles.com/attiny85-game-kit-assembly-instructions/ |
 | Brainpad Arcade |  STM32F401 (84 MHz Cortex M4) | 96 KiB   |  160x128  RGB  | 1-bit Buzzer | VPL (MakeCode Arcade)  |  512KiB  |  N/A |  34.95 USD | No  |  https://www.brainpad.com/brainpad-family/arcade/ |
 | Brainpad Pulse | SC13048Q (80 MHz Cortex M4) | 128 KiB | 128x64 1-bit (SSD1306) |1-bit Buzzer| VPL (MakeCode), C#, MicroPython | 220 KiB | N/A  | Quote |  Yes | https://www.brainpad.com/brainpad-family/pulse/ |
+| ByteBoi | ESP32-WROOM (2x240 Mhz Xtensa) | 8 MiB | 320x240 RGB | Speaker | C++, VPL (CircuitBlocks) | 4 MiB | SD Card | 119 USD | Yes | https://circuitmess.com/products/byteboi-8-bit-game-console | 
 | Dodo   | 65C02  (1 MHz)  | 32KiB | 128x64 1-bit (SSD1305) |1xBuzzer| C (CC65), 65C02 Assembly  | N/A  |  8 KiB FRAM | 199 USD  |  Yes |  http://www.dodolabs.io/ |
 | Elecfreaks | STM32F41x (100 MHz Cortex M4) | 256 KiB | 320x200 RGB | 1-bit Buzzer | VPL (Makecode Arcade) | 1 MiB | N/A | 59.90 USD | No | https://www.elecfreaks.com/retro-arcade-for-education.html | 
 | ESPboy  | ESP8266 (160 MHz Xtensa)   | 80 KiB  |  128x128 RGB (ST7735) |1-bit Speaker| C/C++ (Little Game Engine, Arduino, Arduboy, Gamebuino META), Lua, BASIC, MicroPython, VPL (Scratch), Javascript (MicoJS), Z80 Assembly (Gameboy, ZX Spectrum), SChip-8  | 4 MiB  |  App Store |75/95 USD  | Yes | https://www.espboy.com/ |
 | ESPlay Micro V2   |  ESP32 WROVER (2x240 MHz Xtensa) |  4MiB-8MiB  | 320x240 RGB (ILI9341) | UDA1334A (16-bit DAC) |  MicroPython, C/C++ (Arduino), Z80 Assembly (Gameboy (Color), Master System, Game Gear, Colecovision), 6502 Assembly (NES) | 4MiB   | Micro SD |  32.90 USD   | Yes  |  https://hackaday.io/project/166707-esplay-micro |
 | Gamebuino/MAKERbuino | ATMega 328 (16 MHz AVR) | 2 KiB | 84x48 1-bit (PCD8544) | 4x1-bit Speaker | C/C++ (Arduino) | 32KiB |  Micro SD | ~70 USD (Clones at Various Prices)| Yes | http://legacy.gamebuino.com/wiki/index.php?title=Main_Page |
-| Gamebuino META | ATSAMD21 (48 MHz Cortex M0+) | 32 KiB | 160x128 RGB |10-bit DAC| CircuitPython, C/C++ (Arduino), Javascript (MicoJS) | 256KiB | Micro SD | 70 EUR | No | https://gamebuino.com/ |
-| GameGo   |  STM32F401 (84 MHz Cortex M4) | 96 KiB  | 160x128 RGB |1-bit Speaker | VPL (MakeCode Arcade)  |  512 KiB  |  N/A | 41.90 USD  | No  |  https://www.seeedstudio.com/GameGo-p-4847.html |
+| Gamebuino META | ATSAMD21 (48 MHz Cortex M0+) | 32 KiB | 160x128 RGB (ST7735) |10-bit DAC| CircuitPython, C/C++ (Arduino), Javascript (MicoJS) | 256KiB | Micro SD | 70 EUR | No | https://gamebuino.com/ |
+| GameGo |  STM32F401 (84 MHz Cortex M4) | 96 KiB  | 160x128 RGB |1-bit Speaker | VPL (MakeCode Arcade)  |  512 KiB  |  N/A | 41.90 USD  | No  |  https://www.seeedstudio.com/GameGo-p-4847.html |
 | Kitronik ARCADE | ATSAMD51J19 (120MHz Cortex M4F)  | 192 KiB   |  160 x 128  RGB  | 1-bit Piezo | MicroPython, VPL (MakeCode Arcade) | 512KiB	  | N/A  |  36.00 GBP  | No  | https://kitronik.co.uk/products/5311-arcade-for-makecode-arcade  |
 | KOKO   | ATtiny85 (20 MHz AVR) | 512 B  | 120x64 1-bit (SSD1306) |1-bit Buzzer|  C/C++ (Arduino) | 8 KiB  | N/A  | 37.50 USD  | Yes  |  https://www.tindie.com/products/el9000/koko-a-retro-game-console-kit-diy-and-hackable/ |
-| MeowBit  | STM32F401 (84 MHz Cortex M4) | 96 KiB | 160x128 RGB (ST7735) | 1-bit Buzzer| CircuitPython, VPL (MakeCode Arcade, Kittencode)   | 512KiB | SD  | 39.95  USD | No  |  https://meowbit.kittenbot.cc   |
+| MeowBit  | STM32F401 (84 MHz Cortex M4) | 96 KiB | 160x128 RGB (ST7735) | 1-bit Buzzer| CircuitPython, VPL (MakeCode Arcade, Kittencode) | 512KiB | 2 MiB Flash, SD | 39.95  USD | No  |  https://meowbit.kittenbot.cc   |
 | MicroByte  |  ESP32 WROVER E (2x240 MHz Xtensa) | 8 MiB  | 240x240 RGB (ST7789) |1-bit Buzzer| MicroPython, C/C++ (Arduino), Z80 Assembly (Gameboy (Color), Sega Master System, Game Gear), 6502 Assembly (NES)  | 16 MiB  | N/A  | TBD  | Yes  | https://www.crowdsupply.com/byte-mix-labs/microbyte  |
 | Nibble  |  ESP8266 (160 MHz Xtensa) | 80 KiB  | 128x128 RGB (ST7735) |1-bit Buzzer|  C/C++ (Arduino), CircuitPython, VPL (CircuitBlocks)  |  4MiB | N/A  |  75.99 USD |  Yes |  https://circuitmess.com/nibble/ |
 | Xtron Pro   |  STM32F41x (100 MHz Cortex M4) |   256 KiB | 160x128 RGB | 1-bit Speaker |  VPL (MakeCode Arcade, Xmaker), 6502 Assembly (NES) |  1 MiB | 16 MiB Flash  | 85 USD  | No  | https://store.ovobot.cc/products/xtron-pro  |
@@ -53,10 +54,10 @@ Finally we have shields and Add Ons. To Qualify for this list you need to add bu
 
 | Name | Interface | Display Type| Resolution | Color | Sound | Storage| Price |  Schematic Available| URL |
 | --- | ------------- | -------| ---------- | ---- | ------ | ----| -----| ----| - |
-|  DigiPixel |  Arduino |LED Array| 8x8  |  3-bit | N/A| N/A |  19.95 USD | No  | http://digistump.com/products/108  |
-| Gamby   |  Arduino | Screen | 96x64  | 1-bit  |  1-bit Buzzer | N/A  | 25 USD  | Yes  |http://logicalzero.com/gamby/   |
-|   GAME ZIP 64  |  micro:bit | LED Array| 8x8  |  1-bit   |   1-bit Buzzer | N/A  | 36.60 GBP  | Yes  |  https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit |
-| Newbit Arcade Shield   | micro:bit V2  | Screen | 160x128  | RGB  |  N/A | N/A  | 26.90 USD  | No  |  https://www.kittenbot.cc/products/newbit-arcade-shield |
+|  DigiPixel |  Arduino |LED Array | 8x8  |  3-bit | N/A| N/A |  19.95 USD | No  | http://digistump.com/products/108  |
+| Gamby   |  Arduino | Screen | 96x64 (S6B0755) | 1-bit  |  1-bit Buzzer | N/A  | 25 USD  | Yes  |http://logicalzero.com/gamby/   |
+|   GAME ZIP 64  |  micro:bit | LED Array | 8x8  |  1-bit   |   1-bit Buzzer | N/A  | 36.60 GBP  | Yes  |  https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit |
+| Newbit Arcade Shield | micro:bit V2  | Screen  | 160x128  | RGB  |  N/A | N/A  | 26.90 USD  | No  |  https://www.kittenbot.cc/products/newbit-arcade-shield |
 | TomatoCube* | micro:bit V2 | Screen | 160x128 | RGB | 1-bit Buzzer | N/A | 130 RM | No | https://tomatocube.com/product/makecode-arcade-shield-for-microbit/ |
 
 ## How to Contribute
@@ -71,3 +72,4 @@ If I missed a console leave a Pull Request or an Issue. The criteria to be inclu
 ## Related Lists
 https://github.com/paladin-t/fantasy (For Fantasy Computers, game engines intended to look or act like a Retro Computer).  
 https://aced.io/oshw-gaming/ (A similar list that includes consoles)
+https://www.rghandhelds.com/microhandhelds-specs (A similar list that includes emulation boxes)
