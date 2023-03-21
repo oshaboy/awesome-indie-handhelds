@@ -42,23 +42,24 @@ Cheap microcontrollers and bitmap screens have led to a new class of game consol
 ## LED Matrix Games
 These have a Rectangular Matrix of LEDs as opposed to an LCD, TFT or OLED screen and therefore usually have <200 dots. You could still make crude games on them but not much more than snake.
 
-| Name | Processor | RAM | Resolution | Color | Sound | Languages | Flash Size | Storage | Price | Schematic Available | URL |
-| ---- | --------- | --- | ---------- | -------- | --- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
-| 2048   | ATMega2560 (16 MHz AVR)  | 8 KiB  |  64x32 |  RGB  | N/A |   C/C++ (Arduino)|256KiB   | N/A  | 189 GBP  |  No |  https://www.creoqode.com/2048 |
-| Meggy Jr. RGB   | ATmega168  (16MHz AVR) | 1 KiB  | 8x8  | 3-bit | 1-bit Buzzer | C/C++ (Arduino)  |  16 MiB | N/A  | 75 USD  |  Yes |  https://shop.evilmadscientist.com/productsmenu/tinykitlist/760 |
-| PewPew  | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB |  8x8  | 2-bit    | N/A  | CircuitPython|  256KiB   | N/A |  9.99 USD + Feather M0 Express (19.95 USD) | Yes  |  https://makerfabs.com/pewpew-standalone.html |
+| Name | Processor | RAM | Resolution & Color | Sound | Languages | Flash Size | Storage | Price | Schematic Available | URL |
+| ---- | --------- | --- | ---------- | --- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
+| 2048   | ATMega2560 (16 MHz AVR)  | 8 KiB  |  RGB 64x32    | N/A |   C/C++ (Arduino) | 256KiB   | N/A  | 189 GBP  |  No |  https://www.creoqode.com/2048 |
+| Meggy Jr. RGB   | ATmega168  (16MHz AVR) | 1 KiB  | RGB 8x8 (2XSTP16DP05B1R)  | 1-bit Buzzer | C/C++ (Arduino)  |  16 MiB | N/A  | 75 USD  |  Yes | https://shop.evilmadscientist.com/productsmenu/tinykitlist/760 |
+| PewPew  | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB | 2-bit 8x8 (HT16K33)  | N/A  | CircuitPython|  256KiB   | N/A |  9.99 USD + Feather M0 Express (19.95 USD) | Yes  |  https://makerfabs.com/pewpew-standalone.html |
 
 ## Shields and Add Ons
 
 Finally we have shields and Add Ons. To Qualify for this list you need to add buttons and a display.
 
-| Name | Interface | Display Type| Resolution | Color | Sound | Storage| Price |  Schematic Available| URL |
-| --- | ------------- | -------| ---------- | ---- | ------ | ----| -----| ----| - |
-|  DigiPixel |  Arduino |LED Array | 8x8  |  3-bit | N/A| N/A |  19.95 USD | No  | http://digistump.com/products/108  |
-| Gamby   |  Arduino | Screen | 96x64 (S6B0755) | 1-bit  |  1-bit Buzzer | N/A  | 25 USD  | Yes  |http://logicalzero.com/gamby/   |
-|   GAME ZIP 64  |  micro:bit | LED Array | 8x8  |  1-bit   |   1-bit Buzzer | N/A  | 36.60 GBP  | Yes  |  https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit |
-| Newbit Arcade Shield | micro:bit V2  | Screen  | 160x128  | RGB  |  N/A | N/A  | 26.90 USD  | No  |  https://www.kittenbot.cc/products/newbit-arcade-shield |
-| TomatoCube* | micro:bit V2 | Screen | 160x128 | RGB | 1-bit Buzzer | N/A | 130 RM | No | https://tomatocube.com/product/makecode-arcade-shield-for-microbit/ |
+| Name | Interface | Display  | Sound |  Price |  Schematic Available| URL |
+| --- | ------------- | -------| ---------- | ----| -----| ----|
+|  DigiPixel |  Arduino | 3-bit 8x8 LED Array  | N/A|  19.95 USD | No  | http://digistump.com/products/108  |
+| Gamby   |  Arduino |  96x64 1-bit Screen (S6B0755) |  1-bit Buzzer  | 25 USD  | Yes  |http://logicalzero.com/gamby/   |
+|   GAME ZIP 64  |  micro:bit |  1-bit 8x8 LED Array |   1-bit Buzzer   | 36.60 GBP  | Yes  |  https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit |
+| Newbit Arcade Shield | micro:bit V2  | RGB 160x128 Screen |  N/A   | 26.90 USD  | No  |  https://www.kittenbot.cc/products/newbit-arcade-shield |
+| TomatoCube* | micro:bit V2 |  160x128  RGB Screen | 1-bit Buzzer  | 130 RM | No | https://tomatocube.com/product/makecode-arcade-shield-for-microbit/ |
+| UI Shield | D1 Mini | 128x64 1-bit Screen | 1-bit Buzzer  | 16 USD | No | https://www.tindie.com/products/deshipu/ui-shield-for-d1-mini/ |
 
 ## How to Contribute
 If I missed a console leave a Pull Request or an Issue. The criteria to be included is.
