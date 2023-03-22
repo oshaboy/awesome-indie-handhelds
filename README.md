@@ -5,7 +5,7 @@ Cheap microcontrollers and bitmap screens have led to a new class of game consol
 | ---- | --------- | --- | ---------- | -----  | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
 | 32blit   | STM32H750 (480 MHz Cortex M7) | 1 MiB |  320x240 RGB (ST7272A) | 12-bit DAC (internal) |  C/C++, Lua, Javascript (MicoJS)  |  32 MiB | Micro SD | 118.80 GBP | Yes  | https://32blit.github.io/32blit-website/ |
 | Arduboy | ATMega 32u4 (16 MHz AVR)  | 2.5 KiB | 128x64 1-bit (SSD1306)  | 2x1-bit Buzzer| C/C++ (Arduino) | 32 KiB | 128 MiB Flash (FX Model Only) | 54 USD (Clones at Various Prices)| Yes | https://arduboy.com |
-| Attiny Arcade   | ATtiny85 (20 MHz AVR) | 512 B  |  128x64 1-bit (SSD1306) |  1-bit Buzzer |  C/C++ (Arduino) | 8 KiB  | N/A  | 29.98 USD  | Yes  |  https://webboggles.com/attiny85-game-kit-assembly-instructions/ |
+| Attiny Arcade   | ATtiny85 (20 MHz AVR) | 512 B  |  128x64 1-bit (SSD1306) |  1-bit Buzzer |  C/C++ (Arduino) | 8 KiB  | N/A  | 29.98 USD (Clones at Various Prices) | Yes  |  https://webboggles.com/attiny85-game-kit-assembly-instructions/ |
 | Brainpad Arcade |  STM32F401 (84 MHz Cortex M4) | 96 KiB   |  160x128  RGB  | 1-bit Buzzer | VPL (MakeCode Arcade)  |  512KiB  |  N/A |  34.95 USD | No  |  https://www.brainpad.com/brainpad-family/arcade/ |
 | Brainpad Pulse | SC13048Q (80 MHz Cortex M4) | 128 KiB | 128x64 1-bit (SSD1306) |1-bit Buzzer| VPL (MakeCode), C#, MicroPython | 220 KiB | N/A  | Quote |  Yes | https://www.brainpad.com/brainpad-family/pulse/ |
 | ByteBoi | ESP32-WROOM (2x240 Mhz Xtensa) | 8 MiB | 320x240 RGB | Speaker | C++, VPL (CircuitBlocks) | 4 MiB | SD Card | 119 USD | Yes | https://circuitmess.com/products/byteboi-8-bit-game-console | 
