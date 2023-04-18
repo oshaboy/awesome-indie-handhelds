@@ -28,7 +28,7 @@ Cheap microcontrollers and bitmap screens have led to a new class of game consol
 | Pokitto | LPC11U6x (72 MHz Cortex M0+) | 36 KiB | 220x176 RGB (ST7775R) |8-bit Speaker| MicroPython, C/C++ (Native, Arduboy, Gamebuino), Java, Javascript (MicoJS) | 256kiB   | Micro SD   | 49.90 EUR |    Yes  | https://www.pokitto.com/ |
 | PyBadge |  ATSAMD51J19 (120MHz Cortex M4F)  |  192 KiB   | 160x128 RGB (ST7735R) | 1-bit Speaker | CircuitPython, VPL (MakeCode Arcade), C++ (Arduino) | 512KiB |   2 MiB Flash  | 24.95 USD - 39.95 USD | Yes  | https://learn.adafruit.com/adafruit-pybadge |
 | PyGamer | ATSAMD51J19 (120MHz Cortex M4F)  |  192 KiB   | 160x128 RGB (ST7735R) | 1-bit Speaker | CircuitPython, VPL (MakeCode Arcade), C++ (Arduino) | 512KiB | 8 MiB Flash, Micro SD  | 44.95 USD - 59.95 USD | Yes  | https://learn.adafruit.com/adafruit-pygamer |
-| PYXA | ATMega 328 (16 MHz AVR) | 2 KiB | 160x128 RGB | 1-bit Buzzer | C/C++ (Arduino) | 32KiB | Micro SD  |  99 GBP | No | https://www.creoqode.com/pyxa |
+| PYXA | ATMega 328 (16 MHz AVR) | 2 KiB | 160x128 RGB (ST7735) | 1-bit Buzzer | C/C++ (Arduino) | 32KiB | Micro SD  |  99 GBP | No | https://www.creoqode.com/pyxa |
 | Retro Game Tiny | ATtiny85 (20 MHz AVR) | 512 B  | 120x64 1-bit (SSD1306) |1-bit Buzzer |  C/C++ (Arduino) | 8 KiB  | N/A  | 19.99 USD  | Yes  |  https://www.tindie.com/products/jasonkits/retro-game-tiny-oled-arcade-console/ |  
 | Thinkbox | STM32F41x (100 MHz Cortex M4) | 256 KiB | 320x240 RGB | 1-bit Speaker | VPL (Makecode Arcade) | 512 KiB | N/A | 50 USD | No | https://www.aliexpress.com/item/1005004511119421.html |
 | Thumby | RP2040 (2x133 MHz Cortex M0+) | 264 KiB | 72x40 1-bit (SSD1306) | 1-bit Buzzer | MicroPython, C/C++ (Arduino), VPL (Blockly) | N/A  | 2 MiB Flash | 29.95 USD | Yes | https://tinycircuits.com/products/thumby |
@@ -44,7 +44,7 @@ These have a Rectangular Matrix of LEDs as opposed to an LCD, TFT or OLED screen
 
 | Name | Processor | RAM | Resolution & Color | Sound | Languages | Flash Size | Storage | Price | Schematic Available | URL |
 | ---- | --------- | --- | ---------- | --- | ---------- | ---------- | ---------- | --- | ---------- | ---------- |
-| 2048   | ATMega2560 (16 MHz AVR)  | 8 KiB  |  RGB 64x32    | N/A |   C/C++ (Arduino) | 256KiB   | N/A  | 189 GBP  |  No |  https://www.creoqode.com/2048 |
+| 2048   | ATMega2560 (16 MHz AVR)  | 8 KiB  |  RGB 64x32  (HUB75)  | N/A |   C/C++ (Arduino) | 256KiB   | N/A  | 189 GBP  |  No |  https://www.creoqode.com/2048 |
 | Meggy Jr. RGB   | ATmega168  (16MHz AVR) | 1 KiB  | RGB 8x8 (2xSTP16DP05B1R)  | 1-bit Buzzer | C/C++ (Arduino)  |  16 MiB | N/A  | 75 USD  |  Yes | https://shop.evilmadscientist.com/productsmenu/tinykitlist/760 |
 | PewPew  | ATSAMD21 (48 MHz Cortex M0+)  | 32 KiB | 2-bit 8x8 (HT16K33)  | N/A  | CircuitPython|  256KiB   | N/A |  9.99 USD + Feather M0 Express (19.95 USD) | Yes  |  https://makerfabs.com/pewpew-standalone.html |
 
@@ -54,12 +54,12 @@ Finally we have shields and Add Ons. To Qualify for this list you need to add bu
 
 | Name | Interface | Display  | Sound |  Price |  Schematic Available| URL |
 | --- | ------------- | -------| ---------- | ----| -----| ----|
-|  DigiPixel |  Arduino | 3-bit 8x8 LED Array  | N/A|  19.95 USD | No  | http://digistump.com/products/108  |
+|  DigiPixel |  Arduino | 3-bit 8x8 LED Array (Glue Logic) | N/A|  19.95 USD | Yes  | http://digistump.com/products/108 https://bradsprojects.com/the-digipixel/  |
 | Gamby   |  Arduino |  96x64 1-bit Screen (S6B0755) |  1-bit Buzzer  | 25 USD  | Yes  |http://logicalzero.com/gamby/   |
-|   GAME ZIP 64  |  micro:bit |  1-bit 8x8 LED Array |   1-bit Buzzer   | 36.60 GBP  | Yes  |  https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit |
+|   GAME ZIP 64  |  micro:bit |  24-bit 8x8 LED Array (NeoPixel) |   1-bit Buzzer   | 36.60 GBP  | Yes  |  https://kitronik.co.uk/products/5626-game-zip-64-for-the-bbc-microbit |
 | Newbit Arcade Shield | micro:bit V2  | RGB 160x128 Screen |  N/A   | 26.90 USD  | No  |  https://www.kittenbot.cc/products/newbit-arcade-shield |
 | TomatoCube* | micro:bit V2 |  160x128  RGB Screen | 1-bit Buzzer  | 130 RM | No | https://tomatocube.com/product/makecode-arcade-shield-for-microbit/ |
-| UI Shield | D1 Mini | 128x64 1-bit Screen | 1-bit Buzzer  | 16 USD | No | https://www.tindie.com/products/deshipu/ui-shield-for-d1-mini/ |
+| UI Shield | D1 Mini | 128x64 1-bit Screen (SSD1306) | 1-bit Buzzer  | 16 USD | No | https://www.tindie.com/products/deshipu/ui-shield-for-d1-mini/ |
 
 ## How to Contribute
 If I missed a console leave a Pull Request or an Issue. The criteria to be included is.
